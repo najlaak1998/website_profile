@@ -1,0 +1,235 @@
+
+
+body
+{
+
+color:black;
+background-image: linear-gradient(rgba(0, 0, 0, 0.43),rgba(240, 246, 241, 0.14)),url(img/img3.jpg);
+    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.nav ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+   
+
+    
+}
+.nav li{
+    float: right;
+     margin:30px;
+
+}
+.nav li a 
+{
+    display: inline-block;
+    text-align:center;
+    padding:14px 15px;
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+
+}
+.nav li a:hover{
+  background-color:#fdf41f;
+       border-radius: 50%;
+    color:white;
+     color: black;
+
+}
+
+.nav .logo
+{
+      border-radius: 50%;
+      background-color: yellow;
+      animation-name: najlaa;
+      animation-duration: 4s;
+      animation-iteration-count: 1000;
+
+
+}
+
+@keyframes najlaa {
+  0%   {background-color: #4EF109;}
+  25%  {background-color: #FAFF00;}
+  50%  {background-color: yellowgreen;}
+  100% {background-color: lawngreen;}
+}
+.menulogo
+{
+   float: right;   
+    align-items: center;
+
+}
+
+.text1
+{
+    display: flex;
+     height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 88%;
+
+}
+h1
+{
+    color:white;
+    font-size: 80px;
+}
+.text1 pre
+{   color:white;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+ol
+{
+    color:white;
+    font-size: 12px;
+}
+.text1 button
+{
+    font-size:22px;
+    background-color: #fdf41f;
+    border-radius: 50%;
+     border: none;
+     margin:10;
+    padding:10;
+     float: left;
+   outline: none;
+    color:black;
+    
+   
+    
+    
+
+}
+button:hover{
+    background-color:green;
+    margin:10;
+    padding:10;
+    color:white;
+  
+}
+
+.card1
+{
+    border-radius: 22px;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.5),rgba(0,255, 0,  0.5)),url(img/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 25px;
+    color:white;
+    width: 35%;
+    height:35%; 
+    transition:  background-image 2s border-radius 2s;
+
+
+}
+.card1:hover {
+  width: 300px;
+  height: 300px;
+  background-image: url(img/img4.jpg);
+  border-radius: 22px;
+
+
+}
+.card2
+{
+    border-radius: 22px;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.5),rgba(0,255, 0,  0.5)),url(img/img5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 25px;
+    color:white;
+    width: 35%;
+    height:35%; 
+    transition:  background-image 2s border-radius 2s;
+
+
+
+}
+.card2:hover {
+  width: 300px;
+  height: 300px;
+  background-image: url(img/img5.jpg);
+  border-radius: 22px;
+
+
+}
+.card3
+{
+    border-radius: 22px;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.5),rgba(0,255, 0,  0.5)),url(img/img10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 25px;
+    color:white;
+    width: 35%;
+    height:35%; 
+    transition:  background-image 2s border-radius 2s;
+
+
+
+}
+.card3:hover {
+  width: 300px;
+  height: 300px;
+  background-image: url(img/img10.jpg);
+  border-radius: 22px;
+
+
+}
+.card4
+{
+    border-radius: 22px;
+    background-image: linear-gradient(rgba(255, 255, 0, 0.5),rgba(0,255, 0,  0.5)),url(img/img11.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 25px;
+    color:white;
+    width: 35%;
+    height:35%;
+    transition:  background-image 2s border-radius 2s;
+
+}
+.card4:hover {
+  width: 300px;
+  height: 300px;
+  background-image: url(img/img11.png);
+  border-radius: 22px;
+
+
+}
+h4
+{
+    color:white;
+    font-size: 20px;
+    text-shadow: :0 0 5px #999;
+}
+p
+{
+        text-shadow: :0 0 5px #999;
+
+}
